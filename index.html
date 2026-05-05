@@ -1,6 +1,93 @@
- <!DOCTYPE html>
- <html>
-    <body>
-        <h1>Hello CBU!</h1>
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lemmy Bwalya | Web Developer Profile</title>
+    <style>
+        /* Essential CSS for structure - Module 3 will handle advanced styling */
+        body { font-family: sans-serif; line-height: 1.6; color: #333; max-width: 900px; margin: 0 auto; padding: 20px; }
+        header { border-bottom: 2px solid #2b6cb0; padding-bottom: 20px; margin-bottom: 30px; }
+        nav ul { list-style: none; padding: 0; display: flex; gap: 20px; }
+        main { display: grid; grid-template-columns: 2fr 1fr; gap: 40px; }
+        section { margin-bottom: 40px; }
+        img { border-radius: 8px; border: 1px solid #ccc; }
+        footer { margin-top: 50px; padding: 20px; background: #f4f4f4; text-align: center; font-size: 0.9em; }
+        dt { font-weight: bold; margin-top: 10px; color: #2b6cb0; }
+    </style>
+</head>
+<body>
+
+    <!-- Requirement 2.3: Semantic Page Structure -->
+    <header>
+        <h1>Lemmy Bwalya</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Requirement: <article> for primary content -->
+        <article id="about">
+            <h2>About Me</h2>
+            <p>I am a dedicated Computer Science student at the Copperbelt University with a passion for building functional, user-centric digital products. My focus lies in bridging the gap between complex backend logic and intuitive frontend design.</p>
+            <p>Currently, I am exploring the intersections of Artificial Intelligence and Web3 technologies to understand how they can be leveraged to solve local challenges in Zambia.</p>
+
+            <!-- Requirement 2.5: Figure and Figcaption -->
+            <figure>
+                <img src="me.jpg" alt="Photo of Lemmy Bwalya" width="200" height="200">
+                <figcaption>Lemmy Bwalya - Year 3 CS Student</figcaption>
+            </figure>
+
+            <h3>My Hobbies & Interests</h3>
+            <ul>
+                <li>Developing Open Source Tools</li>
+                <li>Exploring Animated Series</li>
+                <li>Adventure Video Games</li>
+                <li>Music Production</li>
+                <li>Strategic Problem Solving</li>
+            </ul>
+
+            <h3>Top Academic Courses</h3>
+            <ol>
+                <li>CS 361: Introduction to Web Programming</li>
+                <li>CS 350: Object Oriated Programming</li>
+                <li>CS 320: Computer Communication And Parallel Processing</li>
+            </ol>
+        </article>
+
+        <!-- Requirement: <aside> for sidebar info -->
+        <aside id="contact">
+            <h2>Contact & Links</h2>
+            <p>Feel free to reach out for collaborations:</p>
+            <ul>
+                <li><a href="https://github.com/bwalya787" target="_blank">GitHub Profile</a></li>
+                <li><a href="https://linkedin.com/in/lemmy-bwalya" target="_blank">LinkedIn</a></li>
+                <li><a href="mailto:bwalyalemmy67@gmail.com">Email Me</a></li>
+            </ul>
+
+            <h3>Academic Profile</h3>
+            <!-- Requirement 2.4: Description List (dl) -->
+            <dl>
+                <dt>Department</dt>
+                <dd>Computer Science</dd>
+                <dt>Year of Study</dt>
+                <dd>Year 3</dd>
+                <dt>Programme</dt>
+                <dd>B.Sc. Computer Science</dd>
+            </dl>
+        </aside>
+    </main>
+
+    <!-- Requirement 2.3: Footer -->
+    <footer>
+        <p>Contact: <a href="mailto:bwalyalemmy67@gmail.com">bwalyalemmy67@gmail.com</a></p>
+        <p>&copy; 2026 Lemmy Bwalya | CBU School of ICT</p>
+    </footer>
+
+</body>
 </html>
